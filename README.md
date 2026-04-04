@@ -1,262 +1,309 @@
 # 🚀 DSA-COMPLETE — Complete Data Structures & Algorithms in C++
 
-> **Master Data Structures & Algorithms from scratch to advanced — one topic at a time, one file at a time.**
+> **Authored by [Kartikeyan](https://github.com/iamkartikeyan)** — A beautifully organized, beginner-friendly collection of DSA concepts grouped by topic. Every concept is split into small, focused files so you can understand, compile, and run independently. No 300+ line monoliths.
 
 ---
 
-## 📖 About This Repository
+<div align="center">
 
-This is a **complete, hand-curated** DSA learning resource written in **simple, beginner-friendly C++**. Every concept is split into **small, focused files** (never 300+ line monoliths) so you can understand, compile, and run each topic independently.
+### �️ Copyright Notice & Usage Policy
 
-**✨ What makes this different?**
-- 🔹 **Every topic is its own file** — no massive files to scroll through
-- 🔹 **Basic C++ only** — no `auto`, no lambdas, no `nullptr`, no `<bits/stdc++.h>` — just clean, readable code
-- 🔹 **Each file compiles standalone** — `g++ filename.cpp -o out && ./out`
-- 🔹 **Every concept explained with comments** — no topic left behind
-- 🔹 **Summary file in every folder** — quick reference before interviews
+> **© 2024–2025 Kartikeyan. All rights reserved.**
+>
+> This repository is the result of **hundreds of hours** of handwritten code structuring, topic analysis, and careful splitting of concepts into small, readable files.
+>
+> ✅ **You MAY:** Fork for personal study, reference solutions, learn from the patterns, use for interview preparation
+>
+> ❌ **You MAY NOT:** Re-upload this content as your own, claim authorship, redistribute without permission, or use these files in any paid/commercial product, course, or tutorial
+>
+> ⚠️ **Copied repositories will be reported.** If you use these solutions publicly, please credit this repository and the author.
+>
+> *This content is protected under copyright law. Unauthorized use will be pursued.*
+
+</div>
 
 ---
 
-## 📂 Complete Folder Structure
+## � Repository Stats
+
+| Metric | Count |
+|--------|-------|
+| Total Topics Covered | **18 Major Sections** |
+| Sub-folders | **50+** |
+| C++ Files | **350+** |
+| Total Lines of Code | **48,000+** |
+| Language | Basic C++ (Beginner-Friendly) |
+
+---
+
+## �️ Directory Structure
 
 ```
-DSA/
-├── 01_Programming_Fundamentals/
-│   ├── 1.1_Language_Basics/
-│   ├── 1.2_Memory_and_Pointers/
-│   └── 1.3_Recursion_Fundamentals/
+DSA-COMPLETE/
 │
-├── 02_Complexity_Analysis/
-│   ├── 2.1_Time_Complexity/          (6 files)
-│   ├── 2.2_Space_Complexity/          (5 files)
-│   └── 2.3_Amortized_Analysis/        (5 files)
+├── 🟢 01-Programming-Fundamentals/
+│   ├── 1.1-Language-Basics/
+│   ├── 1.2-Memory-and-Pointers/
+│   └── 1.3-Recursion-Fundamentals/
 │
-├── 03_Basic_Data_Structures/
-│   ├── 3.1_Arrays/                    (5 files)
-│   ├── 3.2_Strings/                   (5 files)
-│   ├── 3.3_Linked_Lists/              (5 files)
-│   ├── 3.4_Stacks/                    (5 files)
-│   └── 3.5_Queues/                    (5 files)
+├── 🔵 02-Complexity-Analysis/
+│   ├── 2.1-Time-Complexity/          (6 files)
+│   ├── 2.2-Space-Complexity/          (5 files)
+│   └── 2.3-Amortized-Analysis/        (5 files)
 │
-├── 04_Sorting_and_Searching/
-│   ├── 4.1_Searching/                 (7 files)
-│   ├── 4.2_Sorting_Comparison/        (7 files)
-│   ├── 4.3_Sorting_NonComparison/     (4 files)
-│   └── 4.4_Advanced_Search/           (5 files)
+├── 🟠 03-Basic-Data-Structures/
+│   ├── 3.1-Arrays/                    (5 files)
+│   ├── 3.2-Strings/                   (5 files)
+│   ├── 3.3-Linked-Lists/              (5 files)
+│   ├── 3.4-Stacks/                    (5 files)
+│   └── 3.5-Queues/                    (5 files)
 │
-├── 05_Hashing/
-│   ├── 5.1_Hash_Tables/               (4 files)
-│   ├── 5.2_Hash_Based_Structures/     (8 files)
-│   └── 5.3_Advanced_Hashing/          (5 files)
+├── 🟣 04-Sorting-and-Searching/
+│   ├── 4.1-Searching/                 (7 files)
+│   ├── 4.2-Sorting-Comparison/        (7 files)
+│   ├── 4.3-Sorting-NonComparison/     (4 files)
+│   └── 4.4-Advanced-Search/           (5 files)
 │
-├── 06_Trees/
-│   ├── 6.1_Binary_Trees/              (7 files)
-│   ├── 6.2_Binary_Search_Trees/       (9 files)
-│   ├── 6.3_Balanced_BSTs/             (6 files)
-│   ├── 6.4_Heaps/                     (9 files)
-│   └── 6.5_Advanced_Trees/            (6 files)
+├── 🟤 05-Hashing/
+│   ├── 5.1-Hash-Tables/               (4 files)
+│   ├── 5.2-Hash-Based-Structures/     (8 files)
+│   └── 5.3-Advanced-Hashing/          (5 files)
 │
-├── 07_Graphs/
-│   ├── 7.1_Graph_Fundamentals/        (5 files)
-│   ├── 7.2_Graph_Traversals/          (8 files)
-│   ├── 7.3_Shortest_Path/             (6 files)
-│   ├── 7.4_Minimum_Spanning_Tree/     (4 files)
-│   └── 7.5_Advanced_Graphs/           (7 files)
+├── 🔴 06-Trees/
+│   ├── 6.1-Binary-Trees/              (7 files)
+│   ├── 6.2-Binary-Search-Trees/       (9 files)
+│   ├── 6.3-Balanced-BSTs/             (6 files)
+│   ├── 6.4-Heaps/                     (9 files)
+│   └── 6.5-Advanced-Trees/            (6 files)
 │
-├── 08_Dynamic_Programming/
-│   ├── 8.1_DP_Foundations/            (6 files)
-│   ├── 8.2_Classic_DP_Patterns/       (6 files)
-│   ├── 8.3_Advanced_DP_Patterns/      (5 files)
-│   └── 8.4_DP_Optimization/           (3 files)
+├── 🟢 07-Graphs/
+│   ├── 7.1-Graph-Fundamentals/        (5 files)
+│   ├── 7.2-Graph-Traversals/          (8 files)
+│   ├── 7.3-Shortest-Path/             (6 files)
+│   ├── 7.4-Minimum-Spanning-Tree/     (4 files)
+│   └── 7.5-Advanced-Graphs/           (7 files)
 │
-├── 09_Greedy_Algorithms/
-│   ├── 9.1_Greedy_Fundamentals/       (5 files)
-│   └── 9.2_Classic_Greedy/            (6 files)
+├── 🔵 08-Dynamic-Programming/
+│   ├── 8.1-DP-Foundations/            (6 files)
+│   ├── 8.2-Classic-DP-Patterns/       (6 files)
+│   ├── 8.3-Advanced-DP-Patterns/      (5 files)
+│   └── 8.4-DP-Optimization/           (3 files)
 │
-├── 10_Divide_and_Conquer/
-│   ├── 10.1_DC_Framework/             (6 files)
-│   └── 10.2_DC_Applications/          (6 files)
+├── 🟠 09-Greedy-Algorithms/
+│   ├── 9.1-Greedy-Fundamentals/       (5 files)
+│   └── 9.2-Classic-Greedy/            (6 files)
 │
-├── 11_Backtracking/
-│   ├── 11.1_Backtracking_Fundamentals/(6 files)
-│   └── 11.2_Classic_Problems/         (6 files)
+├── 🟣 10-Divide-and-Conquer/
+│   ├── 10.1-DC-Framework/             (6 files)
+│   └── 10.2-DC-Applications/          (6 files)
 │
-├── 12_Bit_Manipulation/
-│   ├── 12.1_Bitwise_Operators/        (5 files)
-│   └── 12.2_Bit_Applications/         (7 files)
+├── 🟤 11-Backtracking/
+│   ├── 11.1-Backtracking-Fundamentals/(6 files)
+│   └── 11.2-Classic-Problems/         (6 files)
 │
-├── 13_Two_Pointers_Sliding_Window/
-│   ├── 13.1_Two_Pointers/             (8 files)
-│   └── 13.2_Sliding_Window/           (10 files)
+├── 🟢 12-Bit-Manipulation/
+│   ├── 12.1-Bitwise-Operators/        (5 files)
+│   └── 12.2-Bit-Applications/         (7 files)
 │
-├── 14_Prefix_Sum_Difference_Array/
-│   ├── 14.1_Prefix_Sum/               (6 files)
-│   └── 14.2_Difference_Array/         (7 files)
+├── 🔵 13-Two-Pointers-Sliding-Window/
+│   ├── 13.1-Two-Pointers/             (8 files)
+│   └── 13.2-Sliding-Window/           (10 files)
 │
-├── 15_Advanced_Patterns/
-│   ├── 15.1_Monotonic_Stack_queue/    (7 files)
-│   ├── 15.2_Union_Find/               (6 files)
-│   ├── 15.3_TopK_Elements/            (5 files)
-│   ├── 15.4_Interval_Problems/        (6 files)
-│   └── 15.5_Matrix_Patterns/          (5 files)
+├── 🟠 14-Prefix-Sum-Difference-Array/
+│   ├── 14.1-Prefix-Sum/               (6 files)
+│   └── 14.2-Difference-Array/         (7 files)
 │
-├── 16_Mathematics_for_DSA/
-│   ├── 16.1_Number_Theory/            (6 files)
-│   ├── 16.2_Combinatorics/            (4 files)
-│   ├── 16.3_Geometry_Basics/          (4 files)
-│   └── 16.4_Probability_Statistics/   (4 files)
+├── 🟣 15-Advanced-Patterns/
+│   ├── 15.1-Monotonic-Stack-Queue/    (7 files)
+│   ├── 15.2-Union-Find/               (6 files)
+│   ├── 15.3-TopK-Elements/            (5 files)
+│   ├── 15.4-Interval-Problems/        (6 files)
+│   └── 15.5-Matrix-Patterns/          (5 files)
 │
-├── 17_Design_Based_Problems/
-│   ├── 17.1_DS_Design/                (5 files)
-│   └── 17.2_System_Design_Basics/     (5 files)
+├── 🟤 16-Mathematics-for-DSA/
+│   ├── 16.1-Number-Theory/            (6 files)
+│   ├── 16.2-Combinatorics/            (4 files)
+│   ├── 16.3-Geometry-Basics/          (4 files)
+│   └── 16.4-Probability-Statistics/   (4 files)
 │
-└── 18_Miscellaneous_Advanced/
-    ├── 18.1_Advanced_DS/              (4 files)
-    ├── 18.2_String_Algorithms/        (4 files)
-    └── 18.3_Computational_Geometry/   (4 files)
+├── 🔴 17-Design-Based-Problems/
+│   ├── 17.1-DS-Design/                (5 files)
+│   └── 17.2-System-Design-Basics/     (5 files)
+│
+└── ⚫ 18-Miscellaneous-Advanced/
+    ├── 18.1-Advanced-DS/              (4 files)
+    ├── 18.2-String-Algorithms/        (4 files)
+    └── 18.3-Computational-Geometry/   (4 files)
 ```
 
 ---
 
-## 🗺️ Detailed Topic List
+## � Complete Topic Breakdown
 
-### 01 — Programming Fundamentals
-Variables, data types, operators, control flow, functions, scope, pointers, references, dynamic memory, stack vs heap, recursion basics.
+### 🟢 01 — Programming Fundamentals
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 1 | Language Basics | 5 | Variables, data types, operators, control flow, functions, scope, storage classes |
+| 2 | Memory & Pointers | 4 | Pointers, references, dynamic memory allocation, stack vs heap |
+| 3 | Recursion Fundamentals | 3 | Base case, recursive case, call stack, tail recursion |
 
-### 02 — Complexity Analysis
-- **Time Complexity**: Big O, all common complexities, loop analysis, recursive complexity, best/avg/worst case
-- **Space Complexity**: Auxiliary vs input space, in-place vs extra space, recursion stack
-- **Amortized Analysis**: Aggregate method, accounting method, potential method, dynamic array resizing
+### 🔵 02 — Complexity Analysis
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 4 | Time Complexity | 6 | Big O, all common complexities, loop analysis, recursive complexity, best/avg/worst case |
+| 5 | Space Complexity | 5 | Auxiliary vs input space, in-place vs extra space, recursion stack |
+| 6 | Amortized Analysis | 5 | Aggregate method, accounting method, potential method, dynamic array resizing |
 
-### 03 — Basic Data Structures
-- **Arrays**: 1D, 2D, 3D, operations, vector (dynamic array)
-- **Strings**: C-strings, C++ std::string, pattern matching, palindrome, anagram, reverse words
-- **Linked Lists**: Singly, Doubly, Circular, cycle detection (Floyd's), reverse
-- **Stacks**: Array implementation, parenthesis matching, postfix evaluation, function call stack
-- **Queues**: Simple queue, circular queue, deque (double-ended), priority queue
+### 🟠 03 — Basic Data Structures
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 7 | Arrays | 5 | 1D, 2D, 3D arrays, operations, vector (dynamic array) |
+| 8 | Strings | 5 | C-strings, std::string, pattern matching, palindrome, anagram, reverse words |
+| 9 | Linked Lists | 5 | Singly, Doubly, Circular, cycle detection (Floyd's), reverse |
+| 10 | Stacks | 5 | Array implementation, parenthesis matching, postfix evaluation, function call stack |
+| 11 | Queues | 5 | Simple queue, circular queue, deque (double-ended), priority queue |
 
-### 04 — Sorting & Searching
-- **Searching**: Linear, Binary (iterative + recursive), Ternary, Jump, Interpolation, Exponential
-- **Comparison Sorts**: Bubble, Selection, Insertion, Merge, Quick, Heap — all with stability analysis
-- **Non-Comparison Sorts**: Counting Sort, Radix Sort, Bucket Sort
-- **Advanced Search**: Rotated sorted array, 2D matrix search, peak element, mountain array
+### 🟣 04 — Sorting & Searching
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 12 | Searching | 7 | Linear, Binary (iterative + recursive), Ternary, Jump, Interpolation, Exponential |
+| 13 | Comparison Sorts | 7 | Bubble, Selection, Insertion, Merge, Quick, Heap — with stability analysis |
+| 14 | Non-Comparison Sorts | 4 | Counting Sort, Radix Sort, Bucket Sort |
+| 15 | Advanced Search | 5 | Rotated sorted array, 2D matrix search, peak element, mountain array |
 
-### 05 — Hashing
-- **Hash Tables**: Chaining, Open Addressing (Linear Probing), load factor, rehashing
-- **Hash-Based Structures**: Hash Set, Hash Map, frequency counting, Two Sum, subarray sum problems
-- **Advanced Hashing**: Rolling Hash (Rabin-Karp), Double Hashing, Bloom Filter, Consistent Hashing
+### 🟤 05 — Hashing
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 16 | Hash Tables | 4 | Chaining, Open Addressing (Linear Probing), load factor, rehashing |
+| 17 | Hash-Based Structures | 8 | Hash Set, Hash Map, frequency counting, Two Sum, subarray sum problems |
+| 18 | Advanced Hashing | 5 | Rolling Hash (Rabin-Karp), Double Hashing, Bloom Filter, Consistent Hashing |
 
-### 06 — Trees
-- **Binary Trees**: Node structure, traversals (inorder, preorder, postorder, level order), tree properties, tree types
-- **BST**: Search, insert, delete, min/max, successor/predecessor, validate BST, LCA
-- **Balanced BSTs**: AVL (rotations, insert), Red-Black Trees (properties), B-Trees (concepts)
-- **Heaps**: Basics, heapify up/down, insert/extract, build heap, heap sort, K-th element, merge K sorted, top K frequent
-- **Advanced Trees**: Trie (insert, search, autocomplete), Segment Tree (range sum, update), Fenwick Tree (BIT)
+### 🔴 06 — Trees
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 19 | Binary Trees | 7 | Node structure, all traversals, tree properties, tree types |
+| 20 | Binary Search Trees | 9 | Search, insert, delete, min/max, successor/predecessor, validate BST, LCA |
+| 21 | Balanced BSTs | 6 | AVL (rotations, insert), Red-Black Trees (properties), B-Trees (concepts) |
+| 22 | Heaps | 9 | Basics, heapify up/down, insert/extract, build heap, heap sort, K-th element, merge K sorted, top K frequent |
+| 23 | Advanced Trees | 6 | Trie (insert, search, autocomplete), Segment Tree (range sum, update), Fenwick Tree (BIT) |
 
-### 07 — Graphs ⭐
-- **Fundamentals**: Terminology, Adjacency Matrix, Adjacency List, Edge List, representation comparison
-- **Traversals**: BFS, DFS (recursive + iterative), shortest path (unweighted), connected components, cycle detection (directed + undirected)
-- **Shortest Path**: Dijkstra (with path reconstruction), Bellman-Ford, negative cycle detection, Floyd-Warshall (all-pairs)
-- **MST**: Prim's Algorithm, Kruskal's Algorithm, Union-Find (DSU), MST properties
-- **Advanced**: Topological Sort (Kahn's + DFS), Kosaraju's SCC, Articulation Points, Bridges, Bipartite Check
+### 🟢 07 — Graphs
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 24 | Graph Fundamentals | 5 | Terminology, Adjacency Matrix, Adjacency List, Edge List, representation comparison |
+| 25 | Graph Traversals | 8 | BFS, DFS (recursive + iterative), shortest path (unweighted), connected components, cycle detection |
+| 26 | Shortest Path | 6 | Dijkstra, Bellman-Ford, negative cycle detection, Floyd-Warshall (all-pairs) |
+| 27 | Minimum Spanning Tree | 4 | Prim's Algorithm, Kruskal's Algorithm, Union-Find (DSU), MST properties |
+| 28 | Advanced Graphs | 7 | Topological Sort, Kosaraju's SCC, Articulation Points, Bridges, Bipartite Check |
 
-### 08 — Dynamic Programming ⭐
-- **Foundations**: What is DP, memoization vs tabulation, Fibonacci, Climbing Stairs, House Robber, Min Coins, LIS, 5-step DP framework
-- **Classic Patterns**: Grid paths, 0/1 Knapsack, LCS, Edit Distance, Coin Change (min + ways), Subset Sum, Partition
-- **Advanced Patterns**: Palindrome DP, Matrix Chain Multiplication, DP on Trees (diameter, max path sum), Bitmask DP (TSP)
-- **Optimization**: Space optimization (O(n²) → O(n)), rolling arrays, iteration direction tricks
+### 🔵 08 — Dynamic Programming
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 29 | DP Foundations | 6 | Memoization vs tabulation, Fibonacci, Climbing Stairs, House Robber, Min Coins, LIS, 5-step framework |
+| 30 | Classic DP Patterns | 6 | Grid paths, 0/1 Knapsack, LCS, Edit Distance, Coin Change, Subset Sum, Partition |
+| 31 | Advanced DP Patterns | 5 | Palindrome DP, Matrix Chain Multiplication, DP on Trees, Bitmask DP (TSP) |
+| 32 | DP Optimization | 3 | Space optimization, rolling arrays, iteration direction tricks |
 
-### 09 — Greedy Algorithms
-- **Fundamentals**: Greedy choice property, optimal substructure, when greedy works vs fails, Activity Selection, Fractional Knapsack, Greedy vs DP comparison
-- **Classic Problems**: Huffman Coding, Job Sequencing with Deadlines, Minimum Platforms, Interval Merging, Assign Cookies
+### 🟠 09 — Greedy Algorithms
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 33 | Greedy Fundamentals | 5 | Greedy choice property, optimal substructure, when greedy works vs fails, Activity Selection, Fractional Knapsack |
+| 34 | Classic Greedy | 6 | Huffman Coding, Job Sequencing, Minimum Platforms, Interval Merging, Assign Cookies |
 
-### 10 — Divide and Conquer
-- **Framework**: D&C paradigm, Master Theorem (all 3 cases), power (x^n), binary search, Fibonacci (bad D&C example)
-- **Applications**: Merge Sort, Quick Sort, Closest Pair of Points, Inversion Count, Strassen's Matrix Multiplication concept
+### 🟣 10 — Divide and Conquer
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 35 | D&C Framework | 6 | D&C paradigm, Master Theorem (all 3 cases), power (x^n), binary search, Fibonacci |
+| 36 | D&C Applications | 6 | Merge Sort, Quick Sort, Closest Pair of Points, Inversion Count, Strassen's concept |
 
-### 11 — Backtracking
-- **Fundamentals**: Backtracking paradigm (choice-constraint-goal-prune), subset generation, permutations, combinations, combination sum, pruning
-- **Classic Problems**: N-Queens, Sudoku Solver, Rat in Maze, Word Search, Palindrome Partitioning
+### 🟤 11 — Backtracking
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 37 | Backtracking Fundamentals | 6 | Paradigm (choice-constraint-goal-prune), subsets, permutations, combinations, pruning |
+| 38 | Classic Problems | 6 | N-Queens, Sudoku Solver, Rat in Maze, Word Search, Palindrome Partitioning |
 
-### 12 — Bit Manipulation
-- **Operators**: AND, OR, XOR, NOT, Left Shift, Right Shift, bit tricks (n&(n-1), n&(-n))
-- **Applications**: Find unique element, find two uniques, missing number, XOR swap, bitmask subsets, advanced tricks (abs without branching, next power of 2)
+### 🟢 12 — Bit Manipulation
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 39 | Bitwise Operators | 5 | AND, OR, XOR, NOT, Left Shift, Right Shift, bit tricks (n&(n-1), n&(-n)) |
+| 40 | Bit Applications | 7 | Find unique, find two uniques, missing number, XOR swap, bitmask subsets, advanced tricks |
 
-### 13 — Two Pointers & Sliding Window
-- **Two Pointers**: Pair sum, three sum, container with most water, remove duplicates, move zeroes, merge sorted arrays, intersection
-- **Sliding Window**: Fixed window (max sum, first negative), variable window (longest subarray sum, longest unique substring, K distinct), Kadane's, minimum window substring, count anagrams
+### 🔵 13 — Two Pointers & Sliding Window
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 41 | Two Pointers | 8 | Pair sum, three sum, container with most water, remove duplicates, move zeroes, merge sorted arrays |
+| 42 | Sliding Window | 10 | Fixed window (max sum, first negative), variable window, Kadane's, minimum window substring, count anagrams |
 
-### 14 — Prefix Sum & Difference Array
-- **Prefix Sum**: 1D prefix sum, 2D prefix sum (summed area table), subarray sum equals K, Fenwick Tree (BIT)
-- **Difference Array**: Basic diff array, flight booking, range addition, car pooling, 2D difference array
+### 🟠 14 — Prefix Sum & Difference Array
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 43 | Prefix Sum | 6 | 1D prefix sum, 2D prefix sum (summed area table), subarray sum equals K, Fenwick Tree |
+| 44 | Difference Array | 7 | Basic diff array, flight booking, range addition, car pooling, 2D difference array |
 
-### 15 — Advanced Patterns
-- **Monotonic Stack/Queue**: Next greater element, previous greater, stock span, largest rectangle in histogram, sliding window maximum
-- **Union-Find**: Basic DSU, path compression, union by rank, applications (connected components, cycle detection, Kruskal's)
-- **Top K Elements**: Kth largest, Kth smallest, top K frequent (heap, quickselect, bucket sort)
-- **Interval Problems**: Merge intervals, insert interval, non-overlapping intervals, minimum meeting rooms
-- **Matrix Patterns**: Spiral traversal, matrix search, rotate matrix, island patterns (DFS/BFS)
+### 🟣 15 — Advanced Patterns
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 45 | Monotonic Stack/Queue | 7 | Next greater element, stock span, largest rectangle in histogram, sliding window maximum |
+| 46 | Union-Find | 6 | Basic DSU, path compression, union by rank, applications (connected components, cycle detection) |
+| 47 | Top K Elements | 5 | Kth largest, Kth smallest, top K frequent (heap, quickselect, bucket sort) |
+| 48 | Interval Problems | 6 | Merge intervals, insert interval, non-overlapping intervals, minimum meeting rooms |
+| 49 | Matrix Patterns | 5 | Spiral traversal, matrix search, rotate matrix, island patterns (DFS/BFS) |
 
-### 16 — Mathematics for DSA
-- **Number Theory**: Sieve of Eratosthenes, GCD (Euclidean), extended GCD, modular arithmetic, prime factorization
-- **Combinatorics**: Factorial, permutations (nPr), combinations (nCr), Pascal's triangle, Catalan numbers
-- **Geometry Basics**: Point distance, line intersection, polygon area (shoelace formula)
-- **Probability & Statistics**: Basic probability, expected value, mean/median/mode
+### 🟤 16 — Mathematics for DSA
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 50 | Number Theory | 6 | Sieve of Eratosthenes, GCD (Euclidean), extended GCD, modular arithmetic, prime factorization |
+| 51 | Combinatorics | 4 | Factorial, nPr, nCr, Pascal's triangle, Catalan numbers |
+| 52 | Geometry Basics | 4 | Point distance, line intersection, polygon area (shoelace formula) |
+| 53 | Probability & Statistics | 4 | Basic probability, expected value, mean/median/mode |
 
-### 17 — Design Based Problems
-- **DS Design**: Design Stack, Design Queue, Design Min Stack (O(1) getMin), Design LRU Cache
-- **System Design Basics**: Scalability, horizontal vs vertical scaling, load balancing, caching strategies
+### 🔴 17 — Design Based Problems
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 54 | DS Design | 5 | Design Stack, Queue, Min Stack, LRU Cache |
+| 55 | System Design Basics | 5 | Scalability, horizontal vs vertical scaling, load balancing, caching strategies |
 
-### 18 — Miscellaneous Advanced
-- **Advanced DS**: Trie (delete, autocomplete), Segment Tree (range min query), Sparse Table (RMQ)
-- **String Algorithms**: KMP (prefix function), Z-Algorithm, Manacher's (longest palindromic substring)
-- **Computational Geometry**: Cross product, convex hull (Graham scan), line segment intersection
+### ⚫ 18 — Miscellaneous Advanced
+| # | Topic | Files | Covers |
+|---|-------|-------|--------|
+| 56 | Advanced DS | 4 | Trie (advanced), Segment Tree (advanced), Sparse Table |
+| 57 | String Algorithms | 4 | KMP (prefix function), Z-Algorithm, Manacher's (longest palindromic substring) |
+| 58 | Computational Geometry | 4 | Cross product, convex hull (Graham scan), line segment intersection |
 
 ---
 
-## 🛠️ How to Use
+## 🛠️ How to Use This Repository
 
 ### Compile & Run Any File
 ```bash
-cd 07_Graphs/7.2_Graph_Traversals
+cd 07-Graphs/7.2-Graph-Traversals
 g++ 01_BFS_Traversal.cpp -o bfs && ./bfs
 ```
 
 ### Compile All Files in a Folder
 ```bash
-cd 08_Dynamic_Programming/8.1_DP_Foundations
+cd 08-Dynamic-Programming/8.1-DP-Foundations
 for f in *.cpp; do g++ "$f" -o "${f%.cpp}" && echo "✅ $f"; done
 ```
 
 ### Recommended Learning Path
-1. Read the concept file first (`01_What_Is_*.cpp`)
-2. Study the implementation files
-3. Run each file to see output
-4. Read the summary file for quick revision
-5. Move to the next topic
+1. **Read the concept file first** (`01_What_Is_*.cpp`)
+2. **Study the implementation files** one by one
+3. **Run each file** to see the output
+4. **Read the summary file** for quick revision
+5. **Move to the next topic**
 
 ---
 
-## 📊 Statistics
+## 🧠 Why Small Files Instead of Monoliths?
 
-| Metric | Count |
-|--------|-------|
-| **Major Sections** | 18 |
-| **Sub-folders** | 50+ |
-| **Total C++ Files** | 350+ |
-| **Total Lines of Code** | 30,000+ |
-| **Topics Covered** | Every DSA topic for interviews |
-| **Language** | Basic C++ (beginner-friendly) |
+Random 300+ line files build **zero intuition**. Learning topic-by-topic:
 
----
-
-## 🎯 Who Is This For?
-
-- **Students** preparing for placements & campus interviews
-- **Competitive Programmers** building a strong DSA foundation
-- **Self-learners** who want clean, readable code examples
-- **Interview preppers** who need quick revision with summary files
-- **Beginners** who are scared by complex C++ code
+- ✅ Helps you **focus on one concept** at a time
+- ✅ Builds **muscle memory** for each pattern independently
+- ✅ Makes **interview prep** systematic — open one file, read, run, revise
+- ✅ Every file is **standalone compilable** — no dependencies
+- ✅ **No scrolling** through hundreds of lines to find what you need
 
 ---
 
@@ -277,40 +324,31 @@ All files follow these rules for maximum readability:
 
 ---
 
-## 🔒 Copyright & License
-
-```
-Copyright © 2025 Kartikeyan Sahani. All Rights Reserved.
-
-This repository and all its contents are the exclusive intellectual 
-property of Kartikeyan Sahani.
-
-RESTRICTIONS:
-1. No part of this repository may be copied, reproduced, distributed, 
-   or transmitted in any form without explicit prior written permission.
-2. Creating derivative works, forks for public use, or repackaging 
-   this content in any form is STRICTLY PROHIBITED.
-3. Using this code for commercial purposes, tutorials, courses, 
-   books, or any monetized content is STRICTLY PROHIBITED.
-4. Plagiarism of this content — in whole or in part — is a violation 
-   of intellectual property rights and will be pursued legally.
-
-PERMITTED:
-- Personal learning and study
-- Private, non-public reference
-
-For licensing inquiries, contact: iamkartikeyan
-
-All violations will be reported under applicable intellectual 
-property laws.
-```
-
----
-
-## ⭐ If You Found This Helpful
+## ⭐ If This Helped You
 
 Consider giving this repository a ⭐ star — it helps others discover it!
 
 ---
 
-> **Built with ❤️ for the DSA community — one file at a time.**
+<div align="center">
+
+### ⚖️ License & Attribution
+
+> **⚠️ This repository is NOT under any open-source license.**
+>
+> All code, structure, explanations, and organization in this repository are **copyrighted by [Kartikeyan](https://github.com/iamkartikeyan)**.
+>
+> - You may **fork** this repo for **personal learning** only
+> - You may **reference** solutions with **proper attribution**
+> - You may **NOT** re-upload, copy-paste, or re-publish as your own work
+> - **Commercial use is strictly prohibited**
+>
+> *Unauthorized copying or redistribution will result in a DMCA takedown.*
+
+---
+
+**Built with ❤️ by [Kartikeyan](https://github.com/iamkartikeyan)**
+
+**Happy Coding & Happy Learning!** 🎉
+
+</div>
