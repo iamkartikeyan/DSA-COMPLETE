@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kartikeyansahani/DSA/02_Complexity_Analysis/2.1_Time_Complexity",
+      "program": "/Users/kartikeyansahani/DSA/02_Complexity_Analysis/2.1_Time_Complexity/build/Debug/outDebug"
+    }
+  ]
+}
