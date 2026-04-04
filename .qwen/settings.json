@@ -11,7 +11,10 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(./01_space_optimization)",
+      "Bash(./02_edit_distance_space_optimized)",
+      "Bash(./03_dp_optimization_summary)"
     ]
   },
   "$version": 3
