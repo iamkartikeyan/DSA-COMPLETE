@@ -1,20 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir *)",
-      "Bash(do)",
-      "Bash(echo *)",
-      "Bash(g++ *)",
-      "Bash(done)",
-      "Bash(rm *)",
-      "Bash(git init)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git remote *)",
-      "Bash(git push *)",
-      "Bash(./01_space_optimization)",
-      "Bash(./02_edit_distance_space_optimized)",
-      "Bash(./03_dp_optimization_summary)"
+      "Bash(git push *)"
     ]
   },
   "$version": 3
